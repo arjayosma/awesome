@@ -26,4 +26,4 @@ From time to time, I may occasionally bring up other interesting topics such as 
 
 ### Therefore
 
-As the number of developers grows every day, I hope this blog provides the help that they need and present the answers they wish to see.
+As the number of developers grows every day, I hope this blog provides the help that they need and present the answers they wish to see. Always remember to stay awesome!
