@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800&display=swap");
+
+body {
+  --bg: #ffffff;
+  --textNormal: #333333;
+  --textTitle: #4c90c7;
+  --textLink: #4c91c8;
+  --hr: #18222d;
+  --card: #f4f4f4;
+
+  background-color: var(--bg);
+  color: var(--textNormal);
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #18222d;
+  --textNormal: #dcdee2;
+  --textTitle: #4c90c7;
+  --textLink: #43a6f9;
+  --hr: #ffffff;
+  --card: #213040;
+}
+
+a {
+  box-shadow: none;
+}
+
+blockquote {
+  color: var(--textNormal);
+}
+
+footer a {
+  color: var(--textNormal);
+}
+
+ol {
+  margin-left: 3em;
+}

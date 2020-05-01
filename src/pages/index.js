@@ -12,15 +12,24 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Notes by Arjay Osma" />
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <article key={node.fields.slug}>
+          <article
+            key={node.fields.slug}
+            style={{
+              backgroundColor: `var(--card)`,
+              padding: `1rem`,
+              borderRadius: `0.5rem`,
+              marginBottom: `2rem`,
+            }}
+          >
             <header>
               <h3
                 style={{
+                  marginTop: `0.5rem`,
                   marginBottom: rhythm(1 / 4),
                 }}
               >
@@ -28,7 +37,9 @@ const BlogIndex = ({ data, location }) => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small style={{ color: `var(--textTitle)` }}>
+                {node.frontmatter.date}
+              </small>
             </header>
             <section>
               <p
