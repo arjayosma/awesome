@@ -70,11 +70,11 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: "og:image",
-          content: `${siteUrl}/images/site-meta-image.png`,
+          content: `${siteUrl}/images/site-meta-image.jpg`,
         },
         {
           name: "twitter:image",
-          content: `${siteUrl}/images/site-meta-image.png`,
+          content: `${siteUrl}/images/site-meta-image.jpg`,
         },
       ].concat(meta)}
     />
