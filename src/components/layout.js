@@ -7,7 +7,6 @@ import {
   faRss,
 } from "@fortawesome/free-solid-svg-icons"
 import {
-  faFacebook,
   faTwitter,
   faGithub,
   faMedium,
@@ -118,13 +117,6 @@ const Layout = ({ location, title, children }) => {
         }}
       >
         <div>
-          <a href="https://facebook.com/arjayosma">
-            <FontAwesomeIcon
-              size="lg"
-              icon={faFacebook}
-              style={{ marginRight: `0.5em` }}
-            />
-          </a>
           <a href="https://twitter.com/arjayosma">
             <FontAwesomeIcon
               size="lg"

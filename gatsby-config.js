@@ -5,7 +5,7 @@ module.exports = {
       name: `Arjay Osma`,
       summary: `ENTP with a knack for software development, business and design.`,
     },
-    description: `Personal blog sharing encounters with Java and JavaScript.`,
+    description: `Personal blog by Arjay Osma sharing about his encounters with Java and JavaScript.`,
     siteUrl: `https://arjayosma.com`,
     social: {
       twitter: `arjayosma`,
