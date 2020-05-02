@@ -3,6 +3,7 @@
 body {
   --bg: #ffffff;
   --textNormal: #333333;
+  --blockquote: #aaaaaa;
   --textTitle: #4c90c7;
   --textLink: #4c91c8;
   --hr: #18222d;
@@ -22,6 +23,7 @@ body.dark {
 
   --bg: #18222d;
   --textNormal: #dcdee2;
+  --blockquote: #999999;
   --textTitle: #4c90c7;
   --textLink: #43a6f9;
   --hr: #ffffff;
@@ -33,7 +35,8 @@ a {
 }
 
 blockquote {
-  color: var(--textNormal);
+  color: var(--blockquote);
+  margin-left: 1rem;
 }
 
 footer a {
@@ -42,4 +45,25 @@ footer a {
 
 ol {
   margin-left: 3em;
+}
+
+table {
+  border: 1px solid hsla(0, 0%, 0%, 0.12);
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 0.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th:first-child,
+td:first-child {
+  padding: 0.5rem 1rem;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem;
 }
