@@ -38,7 +38,7 @@ const SEO = ({ description, lang, meta, slug, title }) => {
         },
         {
           property: "og:url",
-          content: `${siteUrl}${slug}`,
+          content: `${siteUrl}${slug !== undefined ? slug : ""}`,
         },
         {
           property: `og:title`,
