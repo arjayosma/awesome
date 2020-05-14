@@ -1,7 +1,7 @@
 ---
 title: How To Conditionally Wrap A React Component
 date: "2020-05-03"
-description: "You must've probably needed to wrap a component, one way or another"
+description: "You must've probably needed to wrap a component, one way or another. In this article, we'll discuss how to conditionally wrap a React component by using Higher Order Components (HOC)."
 ---
 
 While working on your React project, you've probably encountered a scenario where you want to conditionally place a component inside a parent component.
@@ -22,9 +22,7 @@ Maybe you've found yourself using this format in one of your codes:
 }
 ```
 
-Yes! We've been there and it is working. Nothing's wrong.
-
-> Convincing ourselves that if it works when the browser is refreshed, then it is already good for us.
+Yes! We've been there and it is working. Nothing's wrong. Convincing ourselves that if it works when the browser is refreshed, then it is already good for us.
 
 ## Problem
 
@@ -72,7 +70,7 @@ The `wrapper` prop should receive the `<p>` child component as the function para
 
 Of course, this is not the only flavor we can do to wrap our components. We also have alternative ways of doing this, but I'll leave it up to you to find it out by playing around with the base function or wrapper component.
 
-> Take into consideration how you're going to use this wrapping component for your codebase.
+Take into consideration how you're going to use this wrapping component for your codebase.
 
 ## Possible Use Cases and Examples
 
