@@ -1,5 +1,5 @@
 ---
-title: Foreword
+title: Preface
 date: "2020-05-01"
 description: "I finally decided to start blogging about technology and software development in general."
 ---
