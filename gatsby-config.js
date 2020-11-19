@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `< Awesome />`,
+    title: `Awesome Notes`,
     author: {
       name: `Arjay Osma`,
-      summary: `ENTP with a knack for software development, business and design.`,
+      summary: `Software Development. Business. Design.`,
     },
-    description: `Personal blog by Arjay about his encounters with Java and JavaScript.`,
+    description: `Let's talk about business and tech: Java, JavaScript, and anything in between.`,
     siteUrl: `https://arjayosma.com`,
     social: {
       twitter: `arjayosma`,
@@ -67,7 +67,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `<Awesome/>`,
+        name: `Awesome Notes`,
         short_name: `awesome`,
         start_url: `/`,
         background_color: `#18222d`,
@@ -138,7 +138,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "<Awesome/> - Arjay Osma Blog RSS Feed",
+            title: "Awesome Blog RSS Feed",
           },
         ],
       },

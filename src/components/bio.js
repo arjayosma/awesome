@@ -27,7 +27,15 @@ const Bio = () => {
           <strong>Arjay Osma</strong>
         </a>
         <br />
-        ENTP with a knack for software development, business and design.
+        I'm a full-stack software developer, startup enthusiast, and designer.
+        <br />
+        <br />
+        I've been in the industry for more than{" "}
+        {new Date().getFullYear() - 2013} years. I enjoy building applications
+        using <strong>Java</strong> and <strong>JavaScript</strong> (React and
+        React Native mostly) technologies. I'll be sharing bits and pieces of
+        knowledge I learned, and to ultimately cement ideas I gained through the
+        years.
       </p>
     </div>
   )
